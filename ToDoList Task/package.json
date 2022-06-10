@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "name": "todolist-task",
+  "version": "1.0.0",
+  "description": "To Do List API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "22AprEnable2",
+  "license": "ISC"
+}
